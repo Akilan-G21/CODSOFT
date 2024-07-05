@@ -5,7 +5,6 @@ public class guessnumber {
 public static void main(String[] args) {
     Random ran=new Random();
     int randomnumber=ran.nextInt(100)+1;        // random number generated is stored 
-    System.out.println(randomnumber);
     int count=0;
     Scanner sc=new Scanner(System.in);
     Scanner scn=new Scanner(System.in);
